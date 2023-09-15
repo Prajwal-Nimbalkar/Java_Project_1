@@ -1,0 +1,20 @@
+import java.text.*;
+import java.util.*;
+
+SimpleDateFormat d1=new SimpleDateFormat("dd-MM-yyyy");
+Date d = new Date();
+d=rst.getString(7);
+String str=d1.format(d);
+
+
+				
+/*sql = "insert into vehicle(name,age,contact,city,lno,exp,carname,carpassing,status,km)				values('" +tname.getText()+ "',"+tage.getText()+",'" +tcnt.getText()+"','"+tcity.getText()+"','"+tlno.getText()+"',"+tdrive.getText()+",'"+tcname.getText()+"','"+tcarpass.getText()+"','"+"available"+"',"+0+")";
+
+                prstm = cn.prepareStatement(sql);
+                prstm.execute() ;
+                prstm.close();
+				stm = cn.createStatement();
+				rs = stm.executeQuery
+		("select * from vehicle where name='"+tname.getText()+ "'");
+				rs.next();
+                JOptionPane.showMessageDialog(null, "Registration Done Successfully!Registration ID:"+rs.getInt(1));*/
